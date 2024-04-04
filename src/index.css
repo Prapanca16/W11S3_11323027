@@ -1,0 +1,49 @@
+.user-info-container {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.user-info-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.user-info-container label {
+  display: inline-block;
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+.user-info-container input[type="text"],
+.user-info-container input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.user-info-container button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.user-info-container button:hover {
+  background-color: #0056b3;
+}
+
+.user-info-container .submit-message {
+  margin-top: 20px;
+  font-weight: bold;
+}
